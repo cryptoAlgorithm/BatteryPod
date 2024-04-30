@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "coilcraft-ser2918h")(type "KiCad")(uri "${KIPRJMOD}/footprints/coilcraft-ser2918h.pretty")(options "")(descr ""))
+  (lib (name "lm5157")(type "KiCad")(uri "${KIPRJMOD}/footprints/lm5157.pretty")(options "")(descr ""))
+)

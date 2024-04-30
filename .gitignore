@@ -1,0 +1,7 @@
+/*-backups/
+/fp-info-cache
+*.lck
+\#*#
+
+# macOS
+.DS_Store
