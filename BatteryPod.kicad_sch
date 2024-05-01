@@ -1269,6 +1269,24 @@
 						)
 					)
 				)
+				(pin unspecified line
+					(at 0 -6.35 0)
+					(length 2.54)
+					(name "MOUNT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(symbol "SER2918H-333KL_1_2"
 				(arc
@@ -2280,6 +2298,10 @@
 	(no_connect
 		(at 105.41 83.82)
 		(uuid "1892d4aa-023e-4cdb-aad8-806e59ab6b8b")
+	)
+	(no_connect
+		(at 201.93 86.36)
+		(uuid "8a0b1271-75f4-4542-b2e6-485bd32b0516")
 	)
 	(wire
 		(pts
@@ -3845,7 +3867,7 @@
 				)
 			)
 		)
-		(property "Footprint" "coilcraft-ser2918h:IND_SER2918H_COC"
+		(property "Footprint" "IND_SER2918H_COC"
 			(at 201.93 80.01 0)
 			(effects
 				(font
@@ -3897,6 +3919,9 @@
 		)
 		(pin "1"
 			(uuid "0a6c759e-bafe-4eb8-88bb-0e1c86218084")
+		)
+		(pin "3"
+			(uuid "0a187800-7ee4-4a22-a69f-57a675ab8277")
 		)
 		(instances
 			(project "BatteryPod"
