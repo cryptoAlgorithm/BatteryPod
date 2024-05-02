@@ -2200,6 +2200,12 @@
 		)
 	)
 	(junction
+		(at 46.99 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06e9572e-40b2-4b02-a6f0-644fd9b1e295")
+	)
+	(junction
 		(at 210.82 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2290,6 +2296,12 @@
 		(uuid "b57622c8-6def-4919-bc25-e04ac712eb70")
 	)
 	(junction
+		(at 46.99 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5ec5004-b6a4-47de-8894-e20f664b5d8a")
+	)
+	(junction
 		(at 210.82 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2372,6 +2384,16 @@
 			(type default)
 		)
 		(uuid "170da447-8980-4947-88b9-f729fe7d5c30")
+	)
+	(wire
+		(pts
+			(xy 46.99 119.38) (xy 46.99 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19602181-446e-47b0-916f-7bc3d04f84ee")
 	)
 	(wire
 		(pts
@@ -2465,6 +2487,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 101.6) (xy 46.99 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e01e85e-4e94-457a-befb-d1f5e5c6114e")
+	)
+	(wire
+		(pts
 			(xy 198.12 125.73) (xy 210.82 125.73)
 		)
 		(stroke
@@ -2515,6 +2547,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 116.84) (xy 59.69 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4eecdb39-d31c-4676-9880-47026b5bdf12")
+	)
+	(wire
+		(pts
 			(xy 234.95 80.01) (xy 234.95 81.28)
 		)
 		(stroke
@@ -2545,6 +2587,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 104.14) (xy 46.99 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d1621f1-3817-493a-8bd2-7cbbac313e08")
+	)
+	(wire
+		(pts
 			(xy 232.41 88.9) (xy 234.95 88.9)
 		)
 		(stroke
@@ -2552,6 +2604,16 @@
 			(type default)
 		)
 		(uuid "5fdad1a7-04f5-4ea2-bcdf-80f67424021d")
+	)
+	(wire
+		(pts
+			(xy 59.69 104.14) (xy 59.69 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61ac0268-d645-4108-a45c-6d9308a6f6e0")
 	)
 	(wire
 		(pts
@@ -2685,6 +2747,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 116.84) (xy 59.69 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f77dceb-f01d-4259-b46a-173d606f7010")
+	)
+	(wire
+		(pts
 			(xy 210.82 115.57) (xy 210.82 113.03)
 		)
 		(stroke
@@ -2702,6 +2774,16 @@
 			(type default)
 		)
 		(uuid "a31f5f94-ab3a-4d25-8a87-06591e3b1c07")
+	)
+	(wire
+		(pts
+			(xy 46.99 104.14) (xy 59.69 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a41fbd2d-6cdc-4a3f-9549-7ea597ee532d")
 	)
 	(wire
 		(pts
@@ -2832,6 +2914,16 @@
 			(type default)
 		)
 		(uuid "d69833c9-a1f9-4835-ba3d-7c9f38aae886")
+	)
+	(wire
+		(pts
+			(xy 46.99 116.84) (xy 46.99 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1f2391e-db78-4ed7-92ca-d47ab2191638")
 	)
 	(wire
 		(pts
@@ -3325,7 +3417,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 69.85 119.38 0)
+		(at 46.99 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3334,7 +3426,7 @@
 		(fields_autoplaced yes)
 		(uuid "2c05a48b-3c73-4314-82bc-03c041dbe736")
 		(property "Reference" "C2"
-			(at 73.66 118.1099 0)
+			(at 50.8 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3343,7 +3435,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 73.66 120.6499 0)
+			(at 50.8 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3352,7 +3444,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric"
-			(at 70.8152 123.19 0)
+			(at 47.9552 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3361,7 +3453,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 119.38 0)
+			(at 46.99 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3370,7 +3462,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 69.85 119.38 0)
+			(at 46.99 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3379,7 +3471,7 @@
 			)
 		)
 		(property "Part" "C342280"
-			(at 69.85 119.38 0)
+			(at 46.99 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3388,7 +3480,7 @@
 			)
 		)
 		(property "Part#" ""
-			(at 69.85 119.38 0)
+			(at 46.99 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3416,7 +3508,7 @@
 		(at 236.22 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4431,15 +4523,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part#" ""
-			(at 100.33 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "56e904cc-8ef6-4674-b2eb-39d3b5611537")
 		)
@@ -4722,9 +4805,9 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9af9b1d1-9c23-40e3-90f2-7d3767a78b6f")
 		(property "Reference" "J1"
@@ -4996,7 +5079,7 @@
 		(at 236.22 125.73 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5127,7 +5210,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 69.85 115.57 0)
+		(at 46.99 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5136,7 +5219,7 @@
 		(fields_autoplaced yes)
 		(uuid "aa9c643b-a5cc-43d6-853d-60e3677164c3")
 		(property "Reference" "#PWR010"
-			(at 69.85 119.38 0)
+			(at 46.99 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5145,7 +5228,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 69.85 110.49 0)
+			(at 46.99 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5153,7 +5236,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 115.57 0)
+			(at 46.99 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5162,7 +5245,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 115.57 0)
+			(at 46.99 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5171,7 +5254,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 69.85 115.57 0)
+			(at 46.99 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5193,7 +5276,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 69.85 123.19 0)
+		(at 46.99 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5202,7 +5285,7 @@
 		(fields_autoplaced yes)
 		(uuid "bfb04172-3173-4c23-ad5e-2ba096bc99e9")
 		(property "Reference" "#PWR011"
-			(at 69.85 129.54 0)
+			(at 46.99 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5211,7 +5294,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 69.85 128.27 0)
+			(at 46.99 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5219,7 +5302,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 123.19 0)
+			(at 46.99 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5228,7 +5311,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 123.19 0)
+			(at 46.99 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5237,7 +5320,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 69.85 123.19 0)
+			(at 46.99 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5396,6 +5479,84 @@
 			(project "BatteryPod"
 				(path "/4321c496-0c88-4f4f-a1d3-dd2bca7d98aa"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 59.69 110.49 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d73650d1-23ce-4673-be15-e87dfb61f0a2")
+		(property "Reference" "C10"
+			(at 67.564 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 69.088 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 58.7248 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 59.69 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "C597287"
+			(at 59.69 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "653568fa-efdb-4b9b-8137-e8b223d80f40")
+		)
+		(pin "2"
+			(uuid "9aa6777c-8395-4c86-b0ab-794636fde6b6")
+		)
+		(instances
+			(project "BatteryPod"
+				(path "/4321c496-0c88-4f4f-a1d3-dd2bca7d98aa"
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -5910,7 +6071,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_16x17.5"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10"
 			(at 237.1852 123.19 0)
 			(effects
 				(font
@@ -5937,16 +6098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "C445445"
-			(at 236.22 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
+		(property "Part" "C487156"
 			(at 236.22 119.38 0)
 			(effects
 				(font
