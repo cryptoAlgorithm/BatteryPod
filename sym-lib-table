@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "coilcraft-ser2918h")(type "KiCad")(uri "${KIPRJMOD}/symbols/coilcraft-ser2918h")(options "")(descr ""))
   (lib (name "lm5157")(type "KiCad")(uri "${KIPRJMOD}/symbols/lm5157.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS25750DRJKR")(type "KiCad")(uri "${KIPRJMOD}/symbols/TPS25750DRJKR.kicad_sym")(options "")(descr ""))
 )
