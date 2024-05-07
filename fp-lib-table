@@ -3,4 +3,5 @@
   (lib (name "coilcraft-ser2918h")(type "KiCad")(uri "${KIPRJMOD}/footprints/coilcraft-ser2918h.pretty")(options "")(descr ""))
   (lib (name "lm5157")(type "KiCad")(uri "${KIPRJMOD}/footprints/lm5157.pretty")(options "")(descr ""))
   (lib (name "Ti")(type "KiCad")(uri "${KIPRJMOD}/footprints/Ti.pretty")(options "")(descr ""))
+  (lib (name "Sumida")(type "KiCad")(uri "${KIPRJMOD}/footprints/Sumida.pretty")(options "")(descr ""))
 )
