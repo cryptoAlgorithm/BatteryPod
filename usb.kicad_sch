@@ -3977,7 +3977,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "C525328"
+		(property "Part" "C2992625"
 			(at 205.74 81.28 0)
 			(effects
 				(font
@@ -4417,7 +4417,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "C525328"
+		(property "Part" "C2992625"
 			(at 210.82 81.28 0)
 			(effects
 				(font
@@ -5308,7 +5308,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "C525328"
+		(property "Part" "C2992625"
 			(at 137.16 69.85 0)
 			(effects
 				(font
@@ -5650,7 +5650,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "C525328"
+		(property "Part" "C2992625"
 			(at 128.27 77.47 0)
 			(effects
 				(font
@@ -5873,6 +5873,15 @@
 			)
 		)
 		(property "Description" "256 kb CMOS Serial EEPROM, DIP-8/SOIC-8/TSSOP-8/DFN-8"
+			(at 101.6 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "C79987"
 			(at 101.6 162.56 0)
 			(effects
 				(font

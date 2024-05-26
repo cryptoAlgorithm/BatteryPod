@@ -1,4 +1,4 @@
-Ref,Val,Package,PosX,PosY,Rot,Side
+Designator,Val,Package,"Mid X","Mid Y",Rotation,Layer
 "C1","10uF","C_2220_5750Metric",128.250000,-122.100000,0.000000,top
 "C2","10uF","C_2220_5750Metric",107.700000,-109.000000,0.000000,top
 "C3","1uF","C_0603_1608Metric",124.900000,-110.200000,180.000000,top
